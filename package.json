@@ -12,12 +12,20 @@
   "devDependencies": {
     "@aws-cdk/assert": "1.89.0",
     "aws-cdk": "1.89.0",
+    "esbuild": "^0.8.46",
     "jest": "^26.4.2"
   },
   "dependencies": {
+    "-": "0.0.1",
+    "@aws-cdk/aws-lambda": "^1.89.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.89.0",
+    "@aws-cdk/aws-lambda-nodejs": "^1.89.0",
+    "@aws-cdk/aws-s3": "^1.89.0",
+    "@aws-cdk/aws-s3-deployment": "^1.89.0",
     "@aws-cdk/aws-sns": "1.89.0",
     "@aws-cdk/aws-sns-subscriptions": "1.89.0",
     "@aws-cdk/aws-sqs": "1.89.0",
-    "@aws-cdk/core": "1.89.0"
+    "@aws-cdk/core": "1.89.0",
+    "aws-sdk": "^2.843.0"
   }
 }
